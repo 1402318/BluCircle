@@ -2,7 +2,7 @@
 using System.Collections;
 using UnityEngine.UI;
 using System.Reflection;
-using UnityEditor;
+//using UnityEditor;
 
 public class GameManager : MonoBehaviour
 {
@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
 
     void Awake()
     {
-        ClearConsole();
+        //ClearConsole();
     }
 	// Use this for initialization
 	void Start () {
@@ -30,12 +30,12 @@ public class GameManager : MonoBehaviour
         Debug.Log("sensitivty factor value loaded is " + sensitivityFactorValue);
     }
 
-    public static void ClearConsole()
-    {
-        var assembly = Assembly.GetAssembly(typeof(UnityEditor.ActiveEditorTracker));
-        var type = assembly.GetType("UnityEditorInternal.LogEntries");
-        var method = type.GetMethod("Clear");
-        method.Invoke(new object(), null);
-    }
+    //public static void ClearConsole()
+    //{
+    //    var assembly = Assembly.GetAssembly(typeof(UnityEditor.ActiveEditorTracker));
+    //    var type = assembly.GetType("UnityEditorInternal.LogEntries");
+    //    var method = type.GetMethod("Clear");
+    //    method.Invoke(new object(), null);
+    //}
 
 }
