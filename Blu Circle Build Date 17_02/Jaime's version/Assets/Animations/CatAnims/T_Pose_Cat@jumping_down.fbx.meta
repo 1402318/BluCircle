@@ -1,0 +1,510 @@
+fileFormatVersion: 2
+guid: 21745a01fd5761847a7e335a4bdb1c8c
+timeCreated: 1454863925
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Cat:Head
+    100002: Cat:HeadTop_End
+    100004: Cat:Hips
+    100006: Cat:LeftArm
+    100008: Cat:LeftFoot
+    100010: Cat:LeftForeArm
+    100012: Cat:LeftHand
+    100014: Cat:LeftLeg
+    100016: Cat:LeftShoulder
+    100018: Cat:LeftToe_End
+    100020: Cat:LeftToeBase
+    100022: Cat:LeftUpLeg
+    100024: Cat:Neck
+    100026: Cat:RightArm
+    100028: Cat:RightFoot
+    100030: Cat:RightForeArm
+    100032: Cat:RightHand
+    100034: Cat:RightLeg
+    100036: Cat:RightShoulder
+    100038: Cat:RightToe_End
+    100040: Cat:RightToeBase
+    100042: Cat:RightUpLeg
+    100044: Cat:Spine
+    100046: Cat:Spine1
+    100048: Cat:Spine2
+    100050: //RootNode
+    400000: Cat:Head
+    400002: Cat:HeadTop_End
+    400004: Cat:Hips
+    400006: Cat:LeftArm
+    400008: Cat:LeftFoot
+    400010: Cat:LeftForeArm
+    400012: Cat:LeftHand
+    400014: Cat:LeftLeg
+    400016: Cat:LeftShoulder
+    400018: Cat:LeftToe_End
+    400020: Cat:LeftToeBase
+    400022: Cat:LeftUpLeg
+    400024: Cat:Neck
+    400026: Cat:RightArm
+    400028: Cat:RightFoot
+    400030: Cat:RightForeArm
+    400032: Cat:RightHand
+    400034: Cat:RightLeg
+    400036: Cat:RightShoulder
+    400038: Cat:RightToe_End
+    400040: Cat:RightToeBase
+    400042: Cat:RightUpLeg
+    400044: Cat:Spine
+    400046: Cat:Spine1
+    400048: Cat:Spine2
+    400050: //RootNode
+    7400000: jumping_down
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'mixamo.com' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'Cat:Spine2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: jumping_down
+      takeName: mixamo.com
+      firstFrame: 13
+      lastFrame: 43
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat:Hips
+        weight: 1
+      - path: Cat:Hips/Cat:LeftUpLeg
+        weight: 1
+      - path: Cat:Hips/Cat:LeftUpLeg/Cat:LeftLeg
+        weight: 1
+      - path: Cat:Hips/Cat:LeftUpLeg/Cat:LeftLeg/Cat:LeftFoot
+        weight: 1
+      - path: Cat:Hips/Cat:LeftUpLeg/Cat:LeftLeg/Cat:LeftFoot/Cat:LeftToeBase
+        weight: 1
+      - path: Cat:Hips/Cat:LeftUpLeg/Cat:LeftLeg/Cat:LeftFoot/Cat:LeftToeBase/Cat:LeftToe_End
+        weight: 1
+      - path: Cat:Hips/Cat:RightUpLeg
+        weight: 1
+      - path: Cat:Hips/Cat:RightUpLeg/Cat:RightLeg
+        weight: 1
+      - path: Cat:Hips/Cat:RightUpLeg/Cat:RightLeg/Cat:RightFoot
+        weight: 1
+      - path: Cat:Hips/Cat:RightUpLeg/Cat:RightLeg/Cat:RightFoot/Cat:RightToeBase
+        weight: 1
+      - path: Cat:Hips/Cat:RightUpLeg/Cat:RightLeg/Cat:RightFoot/Cat:RightToeBase/Cat:RightToe_End
+        weight: 1
+      - path: Cat:Hips/Cat:Spine
+        weight: 1
+      - path: Cat:Hips/Cat:Spine/Cat:Spine1
+        weight: 1
+      - path: Cat:Hips/Cat:Spine/Cat:Spine1/Cat:Spine2
+        weight: 1
+      - path: Cat:Hips/Cat:Spine/Cat:Spine1/Cat:Spine2/Cat:LeftShoulder
+        weight: 1
+      - path: Cat:Hips/Cat:Spine/Cat:Spine1/Cat:Spine2/Cat:LeftShoulder/Cat:LeftArm
+        weight: 1
+      - path: Cat:Hips/Cat:Spine/Cat:Spine1/Cat:Spine2/Cat:LeftShoulder/Cat:LeftArm/Cat:LeftForeArm
+        weight: 1
+      - path: Cat:Hips/Cat:Spine/Cat:Spine1/Cat:Spine2/Cat:LeftShoulder/Cat:LeftArm/Cat:LeftForeArm/Cat:LeftHand
+        weight: 1
+      - path: Cat:Hips/Cat:Spine/Cat:Spine1/Cat:Spine2/Cat:Neck
+        weight: 1
+      - path: Cat:Hips/Cat:Spine/Cat:Spine1/Cat:Spine2/Cat:Neck/Cat:Head
+        weight: 1
+      - path: Cat:Hips/Cat:Spine/Cat:Spine1/Cat:Spine2/Cat:Neck/Cat:Head/Cat:HeadTop_End
+        weight: 1
+      - path: Cat:Hips/Cat:Spine/Cat:Spine1/Cat:Spine2/Cat:RightShoulder
+        weight: 1
+      - path: Cat:Hips/Cat:Spine/Cat:Spine1/Cat:Spine2/Cat:RightShoulder/Cat:RightArm
+        weight: 1
+      - path: Cat:Hips/Cat:Spine/Cat:Spine1/Cat:Spine2/Cat:RightShoulder/Cat:RightArm/Cat:RightForeArm
+        weight: 1
+      - path: Cat:Hips/Cat:Spine/Cat:Spine1/Cat:Spine2/Cat:RightShoulder/Cat:RightArm/Cat:RightForeArm/Cat:RightHand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    human:
+    - boneName: Cat:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cat:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cat:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cat:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cat:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cat:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cat:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cat:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cat:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cat:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cat:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cat:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cat:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cat:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cat:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cat:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cat:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cat:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cat:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cat:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cat:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: T_Pose_Cat(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Cat:polySurface1
+      position: {x: .00752876466, y: .0325652547, z: -.0888921618}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: .34833774, y: .34833774, z: .34833774}
+      transformModified: 1
+    - name: Cat:Hips
+      position: {x: -1.9086508e-06, y: .262919933, z: .0006414206}
+      rotation: {x: -1.38456969e-07, y: -1.07569372e-06, z: 2.47852622e-05, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Cat:LeftUpLeg
+      position: {x: -.0389347784, y: -.0189981274, z: -.00197860226}
+      rotation: {x: -.00209173444, y: .0248970222, z: .999326348, w: .0268805381}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Cat:LeftLeg
+      position: {x: -0, y: .108589277, z: -4.440892e-18}
+      rotation: {x: -.0776712596, y: -.00339760049, z: .0528446473, w: .995571733}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Cat:LeftFoot
+      position: {x: -0, y: .111986242, z: 0}
+      rotation: {x: .597197175, y: .0864404142, z: -.156921655, w: .781830668}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Cat:LeftToeBase
+      position: {x: -0, y: .0690137371, z: 0}
+      rotation: {x: .175746426, y: .00174776139, z: .00978951808, w: .984385252}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Cat:LeftToe_End
+      position: {x: 8.881784e-18, y: .0305149294, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Cat:RightUpLeg
+      position: {x: .0389347784, y: -.0189981274, z: -.00154387951}
+      rotation: {x: .00246407837, y: .0285252817, z: .999230266, w: -.0268181674}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Cat:RightLeg
+      position: {x: -1.7763568e-17, y: .108600184, z: 4.440892e-18}
+      rotation: {x: -.0866772756, y: .00379373017, z: -.0527548157, w: .994831443}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Cat:RightFoot
+      position: {x: 8.881784e-18, y: .112155505, z: 4.440892e-18}
+      rotation: {x: .598410487, y: -.0911046863, z: .162365943, w: .779257476}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Cat:RightToeBase
+      position: {x: -0, y: .0683836117, z: 2.220446e-18}
+      rotation: {x: .177348763, y: -.00134032243, z: -.00743764825, w: .984119058}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Cat:RightToe_End
+      position: {x: -1.7763568e-17, y: .0300830211, z: 2.220446e-18}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Cat:Spine
+      position: {x: -0, y: .034270592, z: .00014051437}
+      rotation: {x: .00205020863, y: 1.024889e-06, z: -2.47874159e-05, w: .999997914}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Cat:Spine1
+      position: {x: -0, y: .0399826728, z: -4.440892e-18}
+      rotation: {x: 4.33680921e-19, y: -3.98356749e-14, z: 6.82290108e-13, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Cat:Spine2
+      position: {x: -0, y: .0456945077, z: 0}
+      rotation: {x: 4.33680869e-19, y: -0, z: -2.22729946e-29, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Cat:Neck
+      position: {x: -0, y: .0514063016, z: 3.35643091e-09}
+      rotation: {x: -.00205005053, y: 4.30989642e-14, z: 2.2728572e-13, w: .999997914}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Cat:Head
+      position: {x: -0, y: .0475419983, z: .000185322759}
+      rotation: {x: 0, y: 0, z: 2.19485225e-31, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Cat:HeadTop_End
+      position: {x: -0, y: .117954597, z: .00045979736}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Cat:RightShoulder
+      position: {x: .0347968526, y: .041187752, z: -.000695777358}
+      rotation: {x: -.552712142, y: -.437937498, z: .564264655, w: -.429331392}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Cat:RightArm
+      position: {x: -0, y: .071453087, z: 0}
+      rotation: {x: -.124827169, y: -.00117597927, z: .0104125133, w: .992123187}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Cat:RightForeArm
+      position: {x: -0, y: .0672818571, z: 0}
+      rotation: {x: -1.32806733e-07, y: .00121712859, z: 3.53249987e-07, w: .999999285}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Cat:RightHand
+      position: {x: -0, y: .0568514243, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Cat:LeftShoulder
+      position: {x: -.0347968526, y: .0411938056, z: .00077955157}
+      rotation: {x: .564831614, y: -.428943932, z: .552053511, w: .438416809}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Cat:LeftArm
+      position: {x: -0, y: .071453087, z: 0}
+      rotation: {x: -.124735482, y: -.00095074228, z: .0114530092, w: .992123485}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Cat:LeftForeArm
+      position: {x: 4.440892e-18, y: .0672840551, z: 0}
+      rotation: {x: -1.63356148e-07, y: -.00137070683, z: 4.25636472e-07, w: .999999046}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Cat:LeftHand
+      position: {x: -0, y: .0568390489, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 74dd190ad3f0cc441a390a50fa66b7d9,
+    type: 3}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

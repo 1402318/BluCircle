@@ -14,8 +14,6 @@ public class Trajectory : MonoBehaviour
     void Start()
     {
         Debug.Log("hi, I am called Trajectory");
-       // startPos = new Vector3(startpoint.position.x, startpoint.position.y, startpoint.position.z);    //this should be changed so that when the player hits the see saw it finds the startpoint
-       //endPos = new Vector3(endpoint.position.x, endpoint.position.y, endpoint.position.z);            //this should be changed so that when the player hits the see saw it find the endpoint
     }
     // Update is called once per frame
     void Update()
